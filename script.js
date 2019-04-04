@@ -1,36 +1,41 @@
-new Vue({
+var myVue = new Vue({
     el: "#app",
-    data:{
-        postcardArray: [
+    data: {
+        postcards: [
             {
-                location: "san diego",
+                rank: 1,
+                location: "San Diego",
                 year: 2019,
-                landmark: "sunset cliffs",
-                description: "architecture and scenery from the cliffs",
+                landmark: "Sunset Cliffs",
+                description: "Architecture and scenery from the cliffs",
             },
             {
-                location: "arizona",
+                rank: 2,
+                location: "Arizona",
                 year: 2002,
-                landmark: "grand canyon",
-                description: "best family vacation ever",
+                landmark: "Grand Canyon",
+                description: "Best family vacation ever",
             },
             {
-                location: "banff",
+                rank: 3,
+                location: "Banff",
                 year: 1995,
-                landmark: "chateau lake louise",
-                description: "on the shores of lake louise",
+                landmark: "Chateau Lake Louise",
+                description: "On the shores of Lake Louise",
             },
             {
-                location: "bar harbor",
+                rank: 4,
+                location: "Bar Harbor",
                 year: 2017,
-                landmark: "acadia national park",
-                description: "you have to try the lobster pizza",
+                landmark: "Acadia National Park",
+                description: "You have to try the lobster pizza",
             },
             {
-                location: "north shore",
+                rank: 5,
+                location: "North Shore",
                 year: 1999,
-                landmark: "split rock lighthouse",
-                description: "the lighthouse sits majestically on the cliff",
+                landmark: "Split Rock Lighthouse",
+                description: "The lighthouse sits majestically on the cliff",
             }
         ]
     }
